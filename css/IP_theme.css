@@ -1,0 +1,173 @@
+/**
+ * Footheme footheme.css
+ *
+ * Use this file to add your custom styles.
+ *
+ * You can change the name of this file, just
+ * remember to update the name in the info file
+ * as well.
+ */
+body {
+background: #c6cdd3; 
+
+}
+
+html {
+background: #c6cdd3;
+
+}
+
+
+#header .header-inner {
+background-image: none;
+background-repeat: no-repeat;
+/* height: 135px; */
+background: #2573ae;
+
+}
+
+
+/* This sets the area under the header and footer. All other objects sit on top of this. */
+#columns
+ {
+background: #ffffff;
+background-image: none ;
+
+}
+
+#main-content {
+background: #ffffff;
+
+}
+
+/*Header colours*/
+h1, h2, h3 {
+color:  #2573ae;
+}
+
+#logo img {
+
+height: 75px;
+width: 75px;
+}
+
+
+/* Set heights on branding and header elements */
+#header,
+#branding {
+  max-height:100px;
+}
+#head-elements {
+  min-height: 150px;
+
+}
+/* IE6 treats height like max height */
+.ie6 #header,
+.ie6 #branding,
+.ie6 #head-elements {
+  height: 150px;
+}
+
+#menu-bar {
+border: #2573ae solid 1px;
+background: #c6cdd3;
+}
+
+#menu-bar ul li a {
+color: #2573ae;
+}
+
+#menu-bar ul li {
+border-right: 2px solid #2573ae;
+}
+
+#menu-bar ul li.last {
+border-right: none;
+}
+
+/* Additional menu block tweaks. Each sub menu must be added to the list here.*/
+
+
+/* Additional menu block tweaks. Each sub menu must be added to the list here.*/
+
+h2.block-title {
+padding-left: 0em;
+}
+
+ .block-block h2.block-title,
+ .block-views h2.block-title,
+.block-menu h2.block-title {
+padding-left: 2em;
+}
+ .block-block .block-content ul li,
+ .block-views .block-content ul li,
+ .block-content ul.menu li,
+.block-system .item-list ul li
+ /*This works but hits the main menu unless the "block content" class is added*/
+ {
+display: table;
+list-style-type: none;
+list-style-image: none;
+margin-bottom: 10px;
+}
+
+ .block-block .block-content ul {
+
+margin-left: 15px;
+}
+
+/*Try to make this universal*/
+ .block-block .block-content ul li a,
+ .block-views .block-content ul li a,
+ .block-content ul.menu li a,
+.block-system .item-list ul li a
+ /*This works but hits the main menu unless the "block content" class is added*/
+{
+display: table-cell;
+color: #ffffff;
+background-color: #2573ae;
+width: 230px;
+height: 60px;
+vertical-align: middle;
+text-align: center;
+/*padding-top: 20px;*/
+font-size: normal;
+/* border-radius: 10px;*/
+box-shadow: 10px 10px 5px #888888;
+padding-left: 5px;
+padding-right: 5px;
+}
+
+
+/*Now to change the active menu*/
+ .block-content ul.menu li a.active,
+.block-system .item-list ul li a.active
+
+ /*This works but hits the main menu unless the "block content" class is added. Your choice!*/
+{
+display: block;
+background-color: #2573ae;
+box-shadow: none;
+
+}
+/* End menu tweaks */
+
+
+
+
+/*Override color.css */
+.block-inner {
+  background: #ffffff;
+}
+
+
+.field-type-image figure {
+border: none;
+}
+
+
+#block-system-powered-by  {
+
+display: none;
+
+}
