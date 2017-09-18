@@ -22,7 +22,7 @@ background: #ffffff;
 background-image: none;
 background-repeat: no-repeat;
 /* height: 135px; */
-background: #ffffff;
+background: #2573ae;
 
 }
 
@@ -70,7 +70,7 @@ width: 75px;
 }
 
 #menu-bar {
-border: none;
+border-top: rgb(159,0,103) solid 3px;
 background: none;
 }
 
@@ -179,7 +179,6 @@ box-shadow: none;
 
 
 
-
 /*Override color.css */
 .block-inner {
   background: #ffffff;
@@ -196,3 +195,42 @@ border: none;
 display: none;
 
 }
+
+#footer {
+border-top: rgb(159,0,103) solid 3px;
+color: #000000;
+background: #ffffff;
+}
+
+#footer a {
+color: #2573ae;
+}
+
+
+/* Must override any changes to the pager class from views */
+
+ .item-list-pager ul.pager li
+ {
+display: inline;
+list-style-type: none;
+list-style-image: none;
+
+}
+
+ .item-list-pager ul.pager li a {
+border: solid red 1px;
+display: inline;
+color: #2573ae;
+background-color: #ffffff;
+width: auto;
+height: auto;
+/*padding-top: 20px;*/
+font-size: normal;
+/* border-radius: 10px;*/
+box-shadow: none;
+
+}
+
+
+}
+
