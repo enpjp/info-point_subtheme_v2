@@ -49,7 +49,7 @@ color:  #2573ae;
 #logo img {
 
 height: 75px;
-width: 75px;
+width: 317px;
 }
 
 
@@ -218,7 +218,7 @@ list-style-image: none;
 }
 
  .item-list-pager ul.pager li a {
-border: solid red 1px;
+
 display: inline;
 color: #2573ae;
 background-color: #ffffff;
