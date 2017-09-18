@@ -8,12 +8,12 @@
  * as well.
  */
 body {
-background: #c6cdd3; 
+background: #ffffff; 
 
 }
 
 html {
-background: #c6cdd3;
+background: #ffffff;
 
 }
 
@@ -39,6 +39,7 @@ background-image: none ;
 background: #ffffff;
 
 }
+
 
 /*Header colours*/
 h1, h2, h3 {
@@ -90,6 +91,10 @@ border-right: none;
 
 /* Additional menu block tweaks. Each sub menu must be added to the list here.*/
 
+.sidebar .block-inner {
+border: 1px solid #2573ae;
+}
+
 h2.block-title {
 padding-left: 0em;
 }
@@ -140,6 +145,8 @@ padding-right: 5px;
 
 
 /*Now to change the active menu*/
+ .block-block .block-content ul li a.active,
+ .block-views .block-content ul li a.active,
  .block-content ul.menu li a.active,
 .block-system .item-list ul li a.active
 
