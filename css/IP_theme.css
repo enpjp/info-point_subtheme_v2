@@ -78,13 +78,31 @@ background: none;
 color: #2573ae;
 }
 
+/*
 #menu-bar ul li {
 border-right: 2px solid #2573ae;
 }
 
 #menu-bar ul li.last {
 border-right: none;
+} */
+
+/* now adjust the active menu */
+
+
+
+
+#menu-bar ul li a.active {
+background: #2573ae;
+color: #ffffff;
 }
+
+a:hover,
+#menu-bar ul li a:hover {
+color: #000000;
+background:  #ffffff;
+}
+
 
 /* Additional menu block tweaks. Each sub menu must be added to the list here.*/
 
