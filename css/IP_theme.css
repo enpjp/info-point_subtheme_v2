@@ -108,13 +108,20 @@ background:  #ffffff;
 
 
 /* Additional menu block tweaks. Each sub menu must be added to the list here.*/
+.sidebar h2.block-title {
+background:  #c6cdd3;
+}
+
+
 
 .sidebar .block-inner {
-border: 1px solid #2573ae;
+/* border: 1px solid #2573ae; */
+background:  #c6cdd3;
 }
 
 h2.block-title {
 padding-left: 0em;
+
 }
 
  .block-block h2.block-title,
