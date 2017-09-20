@@ -99,16 +99,19 @@ color: white;
 
 */
 
-#menu-bar ul li a:hover {
-color: #000000;
-background:  #2573ae;
-}
-
 
 #menu-bar ul li a.active {
 background: #2573ae;
-color: #ffffff;
+color: #c6cdd3;
 }
+
+
+#menu-bar ul li  a:hover  {
+
+color: #000000;
+
+}
+
 
 
 
@@ -178,7 +181,7 @@ text-align: center;
 /*padding-top: 20px;*/
 font-size: normal;
 /* border-radius: 10px;*/
-box-shadow: 10px 10px 5px #888888;
+box-shadow: 5px 5px 5px #888888;
 padding-left: 5px;
 padding-right: 5px;
 }
@@ -196,8 +199,8 @@ color: #ffffff;
 
  /*This works but hits the main menu unless the "block content" class is added. Your choice!*/
 {
-display: block;
-background-color: #2573ae;
+display: table-cell;
+background-color: #888888;
 box-shadow: none;
 
 }
