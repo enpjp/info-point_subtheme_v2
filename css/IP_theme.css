@@ -7,6 +7,7 @@
  * remember to update the name in the info file
  * as well.
  */
+
 body {
 background: #ffffff; 
 
@@ -78,18 +79,30 @@ background: none;
 color: #2573ae;
 }
 
-/*
-#menu-bar ul li {
-border-right: 2px solid #2573ae;
-}
-
-#menu-bar ul li.last {
-border-right: none;
-} */
-
 /* now adjust the active menu */
 
+/* unvisited link */
+a:link {
+    color: #2573ae;
+}
 
+/* visited link */
+a:visited {
+    color: #2573ae;
+}
+
+/*  This seems to mess up javascript menus
+a:hover {
+background:  red;
+color: white;
+}
+
+*/
+
+#menu-bar ul li a:hover {
+color: #000000;
+background:  #2573ae;
+}
 
 
 #menu-bar ul li a.active {
@@ -97,11 +110,12 @@ background: #2573ae;
 color: #ffffff;
 }
 
-a:hover,
-#menu-bar ul li a:hover {
-color: #000000;
-background:  #2573ae;
-}
+
+
+
+
+
+
 
 
 /* Additional menu block tweaks. Each sub menu must be added to the list here.*/
@@ -147,6 +161,7 @@ margin-left: 15px;
 }
 
 /*Try to make this universal*/
+
  .block-block .block-content ul li a,
  .block-views .block-content ul li a,
  .block-content ul.menu li a,
@@ -168,6 +183,10 @@ padding-left: 5px;
 padding-right: 5px;
 }
 
+
+.node-article-button-green a {
+color: #ffffff;
+}
 
 /*Now to change the active menu*/
  .block-block .block-content ul li a.active,
@@ -241,5 +260,4 @@ box-shadow: none;
 }
 
 
-}
 
