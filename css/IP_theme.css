@@ -100,7 +100,7 @@ color: #ffffff;
 a:hover,
 #menu-bar ul li a:hover {
 color: #000000;
-background:  #ffffff;
+background:  #2573ae;
 }
 
 
@@ -209,6 +209,8 @@ color: #000000;
 background: #ffffff;
 }
 
+a,
+a:hover,
 #footer a {
 color: #2573ae;
 }
