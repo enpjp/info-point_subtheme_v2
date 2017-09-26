@@ -180,7 +180,8 @@ padding-left: 5px;
 padding-right: 5px;
 }
 
-
+/* Need some tweaks for custom content types */
+.node-article-footer a,
 .node-article-button-green a {
 color: #ffffff;
 }
@@ -233,7 +234,7 @@ color: #2573ae;
 
 
 /*patch to keep article buttons working */
-
+.node-article-footer a:hover,
 .node-article-button-green a:hover {
 color: #c6cdd3;
 }
