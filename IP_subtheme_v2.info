@@ -26,6 +26,7 @@
 base theme = pixture_reloaded
 stylesheets[all][] = color/colors.css
 stylesheets[all][] = css/IP_theme.css
+stylesheets[all][] = css/newsletter.css
 ie_stylesheets[screen][lte IE 9][] = css/ie-lte-9.css
 regions[sidebar_first] = Sidebar first
 regions[sidebar_second] = Sidebar second
