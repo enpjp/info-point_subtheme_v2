@@ -24,6 +24,7 @@ line-height: 35px;
 
 /*Set the menu like bar for the header*/
 .field-name-field-article-banner-date {
+
 border-bottom: rgb(159,0,103) solid 3px;
 background: #2573ae;
 min-height: 15px;
@@ -130,6 +131,7 @@ padding: 0px;
 }
 
 article.node-article-footer  {
+
 
 border: rgb(159,0,103) solid 3px;
 -mox-border-radius: 8px;
