@@ -4,9 +4,8 @@
   ; Change the name, description and version to whatever you want.
 
   name        = Info-Point Theme 
-  description = The Info-Point subtheme (2017 v2)
+  description = The Info-Point subtheme (2018 v2.1)
   
-
 
 ;----------// Drupal and AT Core compatibility - dont change this!
 
@@ -26,6 +25,7 @@
 base theme = pixture_reloaded
 stylesheets[all][] = color/colors.css
 stylesheets[all][] = css/IP_theme.css
+stylesheets[all][] = css/newsletter.css
 ie_stylesheets[screen][lte IE 9][] = css/ie-lte-9.css
 regions[sidebar_first] = Sidebar first
 regions[sidebar_second] = Sidebar second

@@ -1,0 +1,237 @@
+/*Styling for newsletter content types
+Add this stylesheet to whatever site style is used to get the nice formatting
+*/
+.field-name-field-banner-headline,
+.field-name-field-aticle-banner-headline
+ {
+color:  #ffffff;
+
+min-height: 100px;
+background: #2573ae; /* Old browsers */
+}
+
+
+ .field-name-field-banner-headline .field-items .field-item,
+ .field-name-field-aticle-banner-headline .field-items .field-item
+ {
+
+padding: 15px;
+min-height: 50px;
+font-size: 35px;
+line-height: 35px;
+
+}
+
+/*Set the menu like bar for the header*/
+.field-name-field-article-banner-date {
+border-bottom: rgb(159,0,103) solid 3px;
+background: #2573ae;
+min-height: 15px;
+padding: 15px;
+font-size: 15px;
+line-height:15px;
+color: white;
+
+
+}
+
+/*Set some button styles*/
+/*Blue Button*/
+.field-name-field-article-url-link a,
+.field-name-field-mailing-list a,
+.field-name-field-contact-us a
+{
+display: block;
+color: #ffffff;
+background-color: #2573ae;
+width: 230px;
+height: 50px;
+text-align: center;
+margin-top: 20px;
+padding-top: 20px;
+padding-left:10px;
+padding-right: 10px;
+font-size: large;
+box-shadow: 10px 10px 5px #888888;
+margin-left: auto;
+margin-right: auto;
+}
+
+.node-article-leader p {
+
+color:#000000;
+
+}
+
+.node-article-leader p:nth-child(1),
+.node-article-leader p:first-child
+ {
+color: #2573ae;
+font-size: 130%;
+font-weight: bold;
+}
+
+
+
+.node-article-leader p:nth-child(2) {
+
+color: #2573ae;
+font-size: 130%;
+font-weight: bold;
+}
+
+.node-article-leader p:nth-child(3) {
+font-size: 120%;
+}
+
+.node-article-leader h2 {
+font-size: 200%;
+
+}
+
+
+/*Inset box formatting */
+.node-article-inset-box {
+
+
+}
+
+.node-article-inset-box .node-content {
+
+color: #000000;
+background-color: #c8c8c9;
+padding: 1em;
+-mox-border-radius: 8px;
+border-radius: 8px;
+-mox-box-shadow: 5px 5px 10px #888;
+-webkit-box-shadow: 5px 5px 10px #888;
+box-shadow: 5px 5px 10px #888;
+
+}
+
+.node-article-inset-box .field-items figure img {
+margin-left: auto;
+margin-right: auto;
+}
+
+
+.node-article-inset-box .field-items figure img,
+.node-article-inset-box .field-items .clearfix {
+
+box-shadow: none;
+-mox-box-shadow: none;
+-webkit-box-shadow: none;
+}
+
+.node-article-inset-box .field-items .clearfix {
+
+margin: 2em;
+padding: 0px;
+}
+
+article.node-article-footer  {
+
+border: rgb(159,0,103) solid 3px;
+-mox-border-radius: 8px;
+border-radius: 8px;
+
+}
+
+article.node-article-footer .field-item {
+
+padding-left: 10px;
+padding-right: 10px;
+padding bottom:10px;
+}
+
+article.node-article-footer {
+padding-bottom:30px;
+}
+
+.field-name-field-article-image .field-items .field-item img,
+.field-name-field-article-image .field-items .field-item,
+.field-name-field-article-image .field-items {
+
+width: 100%;
+
+}
+
+/*End article styling */
+
+
+#node-229 h2,
+#node-262 h2,
+#newsletter-mastheadhha h2,
+.newsletter-masthead h2 {
+padding-left: 10px;
+line-height: normal;
+font-size: 35px;
+background: none; 
+color: #FFffff;
+font-family: 'Cantata One', serif;
+}
+
+.newsletter-masthead .node-content,
+.newsletter-masthead .block-content {
+background: #2573ae; /* Old browsers */
+
+}
+
+
+/* Lines */
+/*#node-229 p */
+
+/* Old stuff
+.newsletter-masthead p{
+border-top: none;
+}
+
+.newsletter-masthead p {
+font-size: 15px;
+background: #0C4571;
+color: white;
+} 
+
+.newsletter-masthead h2,
+.newsletter-masthead p {
+padding: .5em;
+}
+
+.newsletter-article h2,
+.node-article h2 {
+font-family: 'Cantata One', serif;
+color: #2573ae;
+background: none;
+font-size: large;
+margin-left: 0px;
+padding-left: 0px;
+}
+
+.newsletter-leader h2 {
+font-family: 'Cantata One', serif;
+color: #2573ae;
+background: none;
+font-size: x-large;
+margin-left: 0px;
+padding-left: 0px;
+}
+
+.newsletter-leader p:first-child {
+font-weight: bold;
+}
+
+.newsletter-subscribe h2 a {
+display:block;
+background: #FFA328;
+color: white;
+padding: 1em;
+width: 10em;
+-mox-border-radius: 8px;
+border-radius: 8px;
+-mox-box-shadow: 5px 5px 10px #888;
+-webkit-box-shadow: 5px 5px 10px #888;
+box-shadow: 5px 5px 10px #888;
+float: right;
+}
+
+*/
