@@ -23,8 +23,8 @@ background: #ffffff;
 background-image: none;
 background-repeat: no-repeat;
 /* height: 135px; */
- /*background: #2573ae;*/
-background: rgb(159,0,103);
+background: #2573ae;
+/* background: rgb(159,0,103); used to set banner to call out colour while updating multiple sites */
 
 }
 
@@ -336,7 +336,8 @@ background-color: rgba(37,115,174,1);
 /* To overcome problems with media files this changes the icon for direct file downloads */
 .node-media .file a,
 .node-audio-media  .file a {
-background-image: url("images/player-icon.png");
+background-image: url("/sites/all/themes/info-point_subtheme_v2/images/player-icon.png");
+/* background-image: url("../images/player-icon.png");*/
 background-repeat: no-repeat;
 display: block;
 height: 80px;
