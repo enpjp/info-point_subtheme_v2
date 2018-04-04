@@ -333,7 +333,20 @@ background-color: rgba(37,115,174,1);
 
 /* End Call to action webforms */
 
-
+/* To overcome problems with media files this changes the icon for direct file downloads */
+.node-media .file a,
+.node-audio-media  .file a {
+background-image: url("images/player-icon.png");
+background-repeat: no-repeat;
+display: block;
+height: 80px;
+color: rgba(0,0,0,0); /* Hide the text. Still there for readers */
+}
+/* Hide the default system file icon */
+.node-media img.file-icon,
+.node-audio-media img.file-icon {
+display: none;
+}
 
 
 
